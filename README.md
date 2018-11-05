@@ -2,7 +2,8 @@
 
 sup mate
 
-why u lurking
+why u lurking?
+
 other than school I do work.
 
 also i twitch. my arm. 
