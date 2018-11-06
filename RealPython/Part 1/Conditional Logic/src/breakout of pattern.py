@@ -12,4 +12,3 @@ for letter in phrase:
         break
     else:
         print('There was no "X" in the phrase')
-

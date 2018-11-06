@@ -4,5 +4,6 @@ def add_underscores(word):
         newWord = newWord + word[i] + "_"
     return newWord
 
+
 phrase = input("What word shall we add underscores to?")
 print(add_underscores(phrase))

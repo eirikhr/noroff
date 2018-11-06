@@ -33,10 +33,12 @@ while (n < 11):
 
 print("Finished.")
 
+
 def doubles(input):
     for x in range(1, 4):
         input = input * 2
         print(input)
+
 
 doubles(4)
 doubles(7)

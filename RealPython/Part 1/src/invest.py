@@ -5,4 +5,5 @@ def invest(amount, rate, time):
         amount = amount * (1 + rate)
         print("År", str(t), ":", str(amount))
 
+
 invest(10, .25, 3)
