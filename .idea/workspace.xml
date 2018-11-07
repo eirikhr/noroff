@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14c6e898-1f2b-4a55-ae29-e4397dc0ba11" name="Default Changelist" comment="" />
+    <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/noroff.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="971073704">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
+    <session id="-203311601">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="1" />
-          <entry key="md" value="2" />
-          <entry key="name" value="1" />
-          <entry key="py" value="13" />
-          <entry key="xml" value="4" />
+          <entry key="py" value="7" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
-          <entry key="XML" value="4" />
+          <entry key="Python" value="7" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="332" />
-          <entry key="dummy" value="33" />
-          <entry key="md" value="216" />
-          <entry key="py" value="4925" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="4471" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="216" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="5257" />
+          <entry key="Python" value="4471" />
         </counts>
       </usages-collector>
     </session>
@@ -60,67 +45,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/functions.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/eksponent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src/Activity Sheet.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1541603710623" expanded="true" signature="26:31" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="22" selection-start-column="22" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/00 Before github/invest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/03 Binary and Variables/lecture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/01 HelloWorld/src/Hello.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="663">
+              <caret line="39" column="96" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+              <folding>
+                <marker date="1541627662272" expanded="true" signature="720:2443" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/password protection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -130,7 +127,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Setup Script" />
         <option value="Python Script" />
       </list>
     </option>
@@ -141,24 +137,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/HelloWorld/src/Hello.py" />
-        <option value="$PROJECT_DIR$/RealPython/test.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src/1.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src/Activity Sheet.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout2.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/password protection.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/loop1.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/functions.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/invest.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/eksponent.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/debuggertest.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simple.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simplegame.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py" />
         <option value="$PROJECT_DIR$/RealPython/README.md" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/CSDojo Python 2 if else.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="25" />
+    <option name="x" value="-1805" />
+    <option name="y" value="65" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,14 +198,6 @@
               <item name="noroff" type="462c0819:PsiDirectoryNode" />
               <item name="RealPython" type="462c0819:PsiDirectoryNode" />
               <item name="Part 1" type="462c0819:PsiDirectoryNode" />
-              <item name="Conditional Logic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff" type="462c0819:PsiDirectoryNode" />
-              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,22 +207,7 @@
             </path>
             <path>
               <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="01 HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="01 HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Algorithms &amp; Data Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -236,14 +216,139 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="resultat&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eirik\PycharmProjects\noroff\UC1PR1102" />
-    </key>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simplegame.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/src/invest.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/src/loop1.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/cube.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/first_letter.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/hello.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/input.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/invest.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/loops.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/00 Before github/test.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/password protection.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/01 HelloWorld/src/Hello.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/01 HelloWorld/src/Hello2.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src/Activity Sheet.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/03 Binary and Variables/Activity Sheet.docx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/03 Binary and Variables/lecture.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/Extra/snake.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/UC1PR1102/HelloWorld/src/Hello.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,29 +362,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.infinite input">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff\UC1PR1102\02 Algorithms &amp; Data Structures\src\Activity Sheet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="breakout of pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kalkulator">
+    <configuration name="5letters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,7 +375,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +384,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="breakout2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="factors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +396,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff\RealPython\Part 1\Conditional Logic\src\password protection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +405,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="infinite input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kalkulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loop1" type="PythonConfigurationType" factoryName="Python">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/src/loop1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,7 +459,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ehr\PycharmProjects\noroff\RealPython\Part 1\Conditional Logic\src\simplegame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tryexcept" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,17 +490,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1" />
-      <item itemvalue="Python.breakout of pattern" />
-      <item itemvalue="Python.breakout2" />
-      <item itemvalue="Python.infinite input" />
+      <item itemvalue="Python.loop1" />
+      <item itemvalue="Python.simple" />
+      <item itemvalue="Python.5letters" />
+      <item itemvalue="Python.factors" />
+      <item itemvalue="Python.tryexcept" />
+      <item itemvalue="Python.kalkulator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.infinite input" />
-        <item itemvalue="Python.breakout2" />
-        <item itemvalue="Python.breakout of pattern" />
-        <item itemvalue="Python.1" />
+        <item itemvalue="Python.kalkulator" />
+        <item itemvalue="Python.tryexcept" />
+        <item itemvalue="Python.5letters" />
+        <item itemvalue="Python.factors" />
+        <item itemvalue="Python.simple" />
       </list>
     </recent_temporary>
   </component>
@@ -362,160 +512,141 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14c6e898-1f2b-4a55-ae29-e4397dc0ba11" name="Default Changelist" comment="" />
-      <created>1541441202113</created>
+      <changelist id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="" />
+      <created>1541431117291</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541441202113</updated>
+      <updated>1541431117291</updated>
     </task>
-    <task id="LOCAL-00001" summary=":)">
-      <created>1541441626277</created>
+    <task id="LOCAL-00001" summary="First commit pycharm">
+      <created>1541431810145</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1541441626277</updated>
+      <updated>1541431810145</updated>
     </task>
-    <task id="LOCAL-00002" summary=":)">
-      <created>1541441887658</created>
+    <task id="LOCAL-00002" summary="First commit pycharm">
+      <created>1541438824279</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1541441887658</updated>
+      <updated>1541438824279</updated>
     </task>
-    <task id="LOCAL-00003" summary=":)">
-      <created>1541442332683</created>
+    <task id="LOCAL-00003" summary="First commit pycharm">
+      <created>1541439127750</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1541442332683</updated>
+      <updated>1541439127750</updated>
     </task>
-    <task id="LOCAL-00004" summary=":)">
-      <created>1541442456879</created>
+    <task id="LOCAL-00004" summary="First commit pycharm">
+      <created>1541439180966</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1541442456879</updated>
+      <updated>1541439180966</updated>
     </task>
-    <task id="LOCAL-00005" summary=":)">
-      <created>1541496270068</created>
+    <task id="LOCAL-00005" summary="Funksjon for beregning av vekstfaktor på investering over x år.">
+      <created>1541440061522</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1541496270068</updated>
+      <updated>1541440061522</updated>
     </task>
-    <task id="LOCAL-00006" summary=":)">
-      <created>1541506716734</created>
+    <task id="LOCAL-00006" summary="Beregner eksponenten av x">
+      <created>1541440448352</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1541506716734</updated>
+      <updated>1541440448352</updated>
     </task>
-    <task id="LOCAL-00007" summary=":)">
-      <created>1541506794550</created>
+    <task id="LOCAL-00007" summary="new coursework">
+      <created>1541449671726</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1541506794550</updated>
+      <updated>1541449671726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-2056" y="-8" width="2064" height="1168" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16781837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.305794" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995064" visible="true" weight="0.8405797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.35450345" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995064" weight="0.3294686" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004936" side_tool="true" weight="0.2763285" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16781837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995064" visible="true" weight="0.2763285" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995064" weight="0.3294686" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004936" side_tool="true" visible="true" weight="0.2763285" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value=":)" />
-    <option name="LAST_COMMIT_MESSAGE" value=":)" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/RealPython/Part 1/src/functions.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/.name" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/encodings.xml" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/HelloWorld.iml" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/misc.xml" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/modules.xml" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/HelloWorld/.idea/workspace.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/invest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/loop1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1541603710629" expanded="true" signature="84:89" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/eksponent.py">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
+        <state relative-caret-position="-3927" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/test.py" />
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/functions.py">
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simplegame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/02 Algorithms &amp; Data Structures/src/Activity Sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/password protection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -529,10 +660,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/01 HelloWorld/src/Hello.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18139">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1541439123945" expanded="true" signature="44:49" ph="..." />
+            <marker date="1541439123945" expanded="true" signature="220:221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/00 Before github/invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/CSDojo Python 2 if else.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/03 Binary and Variables/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1541603710623" expanded="true" signature="26:31" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="96" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+          <folding>
+            <marker date="1541627662272" expanded="true" signature="720:2443" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
