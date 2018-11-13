@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/lecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/dices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/5letters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/breakout of pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/breakout of pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/infinite input.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/infinite input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/password protection.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/password protection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simplegame.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/simplegame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,25 +73,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="py" value="2141" />
-          <entry key="txt" value="3" />
+          <entry key="Python Console" value="171" />
+          <entry key="dummy" value="12" />
+          <entry key="py" value="5208" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="2141" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="5379" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="md" value="1" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -92,52 +102,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/lecture.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/dices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py">
+        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -208,7 +185,12 @@
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/src/errors.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/draft.py" />
+        <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py" />
       </list>
     </option>
   </component>
@@ -236,65 +218,48 @@
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="01 HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="01 HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
+              <item name="01 After" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
+              <item name="01 After" type="462c0819:PsiDirectoryNode" />
+              <item name="02 Simulate Events and Calculate Probabilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
+              <item name="01 After" type="462c0819:PsiDirectoryNode" />
+              <item name="02 Simulate Events and Calculate Probabilities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Algorithms &amp; Data Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Algorithms &amp; Data Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="03 Binary and Variables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="04 Flexible Variables &amp; Programs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="04 Flexible Variables &amp; Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
               <item name="05 Python Library &amp; Boolean Expressions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="05 Python Library &amp; Boolean Expressions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +280,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\02 Simulate Events and Calculate Probabilities" />
+      <recent name="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\Conditional Logic\src" />
+      <recent name="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After" />
       <recent name="C:\Users\ehr\Dropbox\Eirik\07000\src" />
     </key>
   </component>
@@ -330,8 +298,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guesser">
-    <configuration name="counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.election">
+    <configuration name="LizardSpock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,11 +307,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/Extra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\02 Simulate Events and Calculate Probabilities\src\dices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="election" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="errors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\Conditional Logic\src\errors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,27 +404,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lecture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/lecture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="loop1" type="PythonConfigurationType" factoryName="Python">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,63 +425,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prod alarm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="summer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.loop1" />
-      <item itemvalue="Python.lecture" />
-      <item itemvalue="Python.counter" />
-      <item itemvalue="Python.summer" />
-      <item itemvalue="Python.prod alarm" />
       <item itemvalue="Python.guesser" />
+      <item itemvalue="Python.LizardSpock" />
+      <item itemvalue="Python.errors" />
+      <item itemvalue="Python.draft" />
+      <item itemvalue="Python.election" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.election" />
+        <item itemvalue="Python.draft" />
+        <item itemvalue="Python.errors" />
         <item itemvalue="Python.guesser" />
-        <item itemvalue="Python.prod alarm" />
-        <item itemvalue="Python.summer" />
-        <item itemvalue="Python.counter" />
-        <item itemvalue="Python.lecture" />
+        <item itemvalue="Python.LizardSpock" />
       </list>
     </recent_temporary>
   </component>
@@ -514,19 +482,19 @@
       <option name="project" value="LOCAL" />
       <updated>1542055365712</updated>
     </task>
-    <task id="LOCAL-00005" summary="Funksjon for beregning av vekstfaktor på investering over x år.">
-      <created>1541440061522</created>
+    <task id="LOCAL-00005" summary="05 - incomplete before work">
+      <created>1542101757684</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1541440061522</updated>
+      <updated>1542101757684</updated>
     </task>
-    <task id="LOCAL-00006" summary="Beregner eksponenten av x">
-      <created>1541440448352</created>
+    <task id="LOCAL-00006" summary="05 - incomplete before work">
+      <created>1542101858734</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1541440448352</updated>
+      <updated>1542101858734</updated>
     </task>
     <task id="LOCAL-00007" summary="new coursework">
       <created>1541449671726</created>
@@ -535,27 +503,27 @@
       <option name="project" value="LOCAL" />
       <updated>1541449671726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49578503" visible="true" weight="0.23175965" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48946258" visible="true" weight="0.23175965" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995064" weight="0.3294686" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50421494" side_tool="true" visible="true" weight="0.23175965" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5105374" side_tool="true" visible="true" weight="0.23175965" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49789253" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,7 +536,8 @@
     <MESSAGE value="07000 kalkulator" />
     <MESSAGE value="rewriting functions, exporting variables" />
     <MESSAGE value="04" />
-    <option name="LAST_COMMIT_MESSAGE" value="04" />
+    <MESSAGE value="05 - incomplete before work" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 - incomplete before work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,20 +559,10 @@
         <state relative-caret-position="-3927" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simplegame.py">
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/simplegame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="22" selection-start-column="22" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -657,24 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -714,23 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/favlang.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -744,6 +672,33 @@
     <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/5letters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/breakout of pattern.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/factors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -751,10 +706,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#71#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/infinite input.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="476">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/draft.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/dices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
