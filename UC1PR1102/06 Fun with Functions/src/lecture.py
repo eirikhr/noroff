@@ -19,7 +19,7 @@ def arealtrekant(grunnlinje, høyde):
         print("Invalid input")
         return
     else:
-        return (int(grunnlinje) * int(høyde)) / 2
+        return (int(grunnlinje) * int(høyde)) / int(2)
 
 
 grunnlinje = input("Grunnlinje: ")

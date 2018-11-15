@@ -2,11 +2,17 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" line="3" />
+    <bookmark url="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" line="27" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/noroff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/noroff.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,30 +70,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="171" />
-          <entry key="dummy" value="12" />
-          <entry key="md" value="4" />
-          <entry key="py" value="6098" />
+          <entry key="Python Console" value="390" />
+          <entry key="dummy" value="16" />
+          <entry key="md" value="365" />
+          <entry key="py" value="8733" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="6269" />
+          <entry key="Markdown" value="365" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="9123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="py" value="21" />
+          <entry key="md" value="3" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="21" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -124,11 +130,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1542295194202" expanded="true" signature="100:105" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+              <folding>
+                <element signature="e#65#76#0" expanded="true" />
+                <marker date="1542315023498" expanded="true" signature="144:220" ph="..." />
+                <marker date="1542315023498" expanded="true" signature="240:459" ph="..." />
+                <marker date="1542315023498" expanded="true" signature="2152:2154" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -136,22 +181,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/snake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="67" lean-forward="true" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="3" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="e#114#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,6 +208,7 @@
       <find>Kvel</find>
       <find>TilkS</find>
       <find>mt.Dag</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace>Kveld</replace>
@@ -222,21 +256,27 @@
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/counter.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/summer.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/src/errors.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/draft.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py" />
         <option value="$PROJECT_DIR$/RealPython/README.md" />
         <option value="$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/functions.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/curses.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/luls.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="159" />
-    <option name="width" value="1400" />
+    <option name="x" value="994" />
+    <option name="y" value="80" />
+    <option name="width" value="781" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -299,6 +339,40 @@
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff3" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+              <item name="02 LizardSpock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+              <item name="02 LizardSpock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="04 Flexible Variables &amp; Programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="04 Flexible Variables &amp; Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
               <item name="05 Python Library &amp; Boolean Expressions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,8 +403,12 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="atHelg&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Eirik/07000" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eirik\PycharmProjects\noroff3\UC1PR1102\00 ASSESSMENTS\02 LizardSpock" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\02 Simulate Events and Calculate Probabilities" />
       <recent name="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\Conditional Logic\src" />
@@ -350,8 +428,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lecture">
-    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.LizardSpock (1)">
+    <configuration name="LizardSpock (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,11 +437,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\02 Simulate Events and Calculate Probabilities\src\dices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,7 +450,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="election" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LizardSpock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,11 +458,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/Extra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,7 +471,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="errors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="draft (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -401,11 +479,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealPython/Part 1/01 After/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/Extra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff3\RealPython\Part 1\01 After\Conditional Logic\src\errors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -414,7 +492,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guesser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,11 +500,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/guesser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -479,19 +557,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.loop1" />
-      <item itemvalue="Python.guesser" />
-      <item itemvalue="Python.errors" />
-      <item itemvalue="Python.draft" />
-      <item itemvalue="Python.election" />
       <item itemvalue="Python.lecture" />
+      <item itemvalue="Python.fizzbuzz" />
+      <item itemvalue="Python.draft (1)" />
+      <item itemvalue="Python.LizardSpock" />
+      <item itemvalue="Python.LizardSpock (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LizardSpock (1)" />
+        <item itemvalue="Python.LizardSpock" />
+        <item itemvalue="Python.draft (1)" />
+        <item itemvalue="Python.fizzbuzz" />
         <item itemvalue="Python.lecture" />
-        <item itemvalue="Python.election" />
-        <item itemvalue="Python.draft" />
-        <item itemvalue="Python.errors" />
-        <item itemvalue="Python.guesser" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542137112426</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":)">
+      <created>1542187489540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542187489540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -574,19 +659,45 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4889357" visible="true" weight="0.23175965" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48682824" weight="0.23175965" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995064" weight="0.3294686" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894625" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5110643" side_tool="true" visible="true" weight="0.23175965" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49789253" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51317173" side_tool="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4963119" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -726,9 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -780,9 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/draft.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -814,30 +919,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/snake.py">
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="67" lean-forward="true" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="850">
+          <caret line="74" selection-start-line="74" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="e#114#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py">
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1542295194202" expanded="true" signature="100:105" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/draft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/snake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="3" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/luls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding>
+            <element signature="e#65#76#0" expanded="true" />
+            <marker date="1542315023498" expanded="true" signature="144:220" ph="..." />
+            <marker date="1542315023498" expanded="true" signature="240:459" ph="..." />
+            <marker date="1542315023498" expanded="true" signature="2152:2154" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
