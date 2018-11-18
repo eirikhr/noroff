@@ -1,61 +1,33 @@
-import curses
-from curses import KEY_RIGHT, KEY_LEFT, KEY_DOWN, KEY_UP
-from random import randint
+class Robot:
+    def __init__(self, name, color, weight):
+        self.name = name
+        self.color = color
+        self.weight = weight
 
-# General Variables
+    def introduce_self(self):
+        print("My name is:", self.name)
 
-bredde = 35
-hoyde = 20
-max_x = bredde - 1
-max_y = hoyde - 1
-snake_lengde = 5
-snake_x = snake_lengde + 1
-snake_y = 3
-timeout = 100
+class Person:
+    def __init__(self, name, personality, is_sitting):
+        self.name = name
+        self.personality = personality
+        self.is_sitting = is_sitting
 
-# Obj
+    def sit_down(self):
+        self.is_sitting = True
 
-"""Snake object"""
-
-class Snake(object):
-    class Snake(object):
-        # 1  Add Opposite Direction Map
-        OPP_DIR_MAP = {
-            KEY_UP: KEY_DOWN, KEY_DOWN: KEY_UP,
-            KEY_LEFT: KEY_RIGHT, KEY_RIGHT: KEY_LEFT,
-        }
-
-        # 2 def Init, set score to 0, set timeout, body list
-        def __init__(self, x, y, window):
-            self.body_list = []
-            self.hit_score = 0
-            self.timeout = timeout
-
-        # 3 Make Properties on the objects,
-        # which is a special decorator that modifies
-        # the function. makes it so when you access the attribute,
-        # it auto calls the function. Makes for more reusable code
-        @property
-        def score(self):
-            return 'Score: {}'.format(self.hit_score)
+    def stand_up(self):
+        self.is_sitting = False
 
 
-    class Body(object):
-        def __init__(self):
-            self.x = 'this is the'
 
-        def method_a(self, foo):
-            print
-            self.x + ' ' + foo
+r1 = Robot("Tom", "Red", 30)
+r2 = Robot("Jerry", "Blue", 40)
 
-    body = Body().method_a('Body')
+p1 = Person("Alice", "Aggressive", False)
+p2 = Person("Becky", "Talkative", True)
 
-    class Food(object):
-        def __init__(self):
-            self.y = 'Yum, Tasty'
+p1.robot_owned = r2
+p2.robot_owned = r1
 
-        def method_a(self, foo):
-            print
-            self.y + ' ' + foo
-
-    food = Food().method_a('Food')
+p1.robot_owned.introduce_self() # Ber p1's robot om og introdusere seg selv.

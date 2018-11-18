@@ -114,7 +114,7 @@ class Snake(object):
 
 
 class Body(object):
-    def __init__(self, x, y, char='='):
+    def __init__(self, x, y, char='-'):
         self.x = x
         self.y = y
         self.char = char
@@ -139,7 +139,7 @@ class Food(object):
         self.y = randint(1, MAX_Y)
 
 
-def startgame():
+def main():
     curses.initscr()
     window = curses.newwin(HEIGHT, WIDTH, 0, 0)
     window.timeout(SPEED)
@@ -157,11 +157,15 @@ def startgame():
         window.border(0)
         food.add()
         snake.add()
-        window.addstr(0, 5, snake.score)
+        window.addstr(0, 10, snake.score)
         keypressed = window.getch()
 
-        if keypressed == 27 or keypressed == 113:
+        if keypressed == 27:
             break
+
+        if keypressed == 113:
+            print("Thanks for playing :)")
+            quit()
 
         if keypressed in [KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT]:
             snake.new_direction(keypressed)
@@ -169,10 +173,14 @@ def startgame():
         if snake.head.x == food.x and snake.head.y == food.y:
             curses.flash()
             snake.eat(food)
+
         snake.update()
+
         if snake.collided:
             break
 
     curses.endwin()
     return snake.hit_score
 
+if __name__ == "__main__":
+    main()

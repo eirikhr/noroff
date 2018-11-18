@@ -5,13 +5,14 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" line="3" />
+    <bookmark url="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" line="130" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,29 +72,29 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="390" />
-          <entry key="dummy" value="16" />
+          <entry key="dummy" value="21" />
           <entry key="md" value="365" />
-          <entry key="py" value="14227" />
-          <entry key="txt" value="60" />
+          <entry key="py" value="20558" />
+          <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="365" />
-          <entry key="PLAIN_TEXT" value="76" />
-          <entry key="Python" value="14617" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="Python" value="20948" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="31" />
+          <entry key="py" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -101,76 +102,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/dices.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/Part 1/01 After/02 Simulate Events and Calculate Probabilities/src/election.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealPython/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="22" selection-start-column="22" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/06 Fun with Functions/src/lecture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/04 Flexible Variables &amp; Programs/src/fizzbuzz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1542295194202" expanded="true" signature="100:105" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="80" column="101" lean-forward="true" selection-start-line="80" selection-start-column="101" selection-end-line="80" selection-end-column="101" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="89" lean-forward="true" selection-start-line="81" selection-start-column="89" selection-end-line="81" selection-end-column="89" />
               <folding>
-                <element signature="e#65#76#0" expanded="true" />
-                <element signature="e#154#1773#0" />
-                <element signature="e#163#300#1" />
-                <marker date="1542479307982" expanded="true" signature="1892:2884" ph="..." />
+                <element signature="e#67#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -179,13 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/snake.py">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -201,24 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Kvel</find>
-      <find>TilkS</find>
-      <find>mt.Dag</find>
-      <find>input</find>
-      <find>getinput</find>
-      <find>print(p2, &quot;WINS!&quot;)</find>
-      <find>conversion</find>
-      <find>selection</find>
-      <find>randint</find>
-      <find>random</find>
-      <find>random.randint</find>
-      <find>getpass.</find>
-      <find>REV_DIR_MAP</find>
-      <find>3</find>
-      <find>=</find>
-      <find>getpass</find>
-      <find>TIMEOUT</find>
-      <find>ACS</find>
       <find>eat_food</find>
       <find>add_body</find>
       <find>coor</find>
@@ -228,9 +154,27 @@
       <find>render</find>
       <find>MAX_X</find>
       <find>event</find>
-      <find>snakescore</find>
       <find>direction</find>
       <find>change_direction</find>
+      <find>make a</find>
+      <find>in snake</find>
+      <find>os.system('cls' if os.name == 'nt' else 'clear')  # Clears screen for readability</find>
+      <find>clear_screen()</find>
+      <find>selection</find>
+      <find>itssimple</find>
+      <find>twoplayer</find>
+      <find>its_simpl</find>
+      <find>snakescore</find>
+      <find>its_simple()</find>
+      <find>Final score of</find>
+      <find>its_simple</find>
+      <find>global</find>
+      <find>score_count</find>
+      <find>clear_screen</find>
+      <find>main_menu()</find>
+      <find>selection()</find>
+      <find>selection_text</find>
+      <find>OPP_DIR_MAP</find>
     </findStrings>
     <replaceStrings>
       <replace>Kveld</replace>
@@ -246,6 +190,11 @@
       <replace>randint</replace>
       <replace>new_direction</replace>
       <replace>cord</replace>
+      <replace>main_menu</replace>
+      <replace>clear_screen()</replace>
+      <replace>its_simple</replace>
+      <replace>two_player</replace>
+      <replace>snake_score</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -297,15 +246,16 @@
         <option value="$PROJECT_DIR$/UC1PR1102/Extra/draft.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/luls.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="994" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="623" />
+    <option name="y" value="127" />
     <option name="width" value="781" />
     <option name="height" value="1000" />
   </component>
@@ -459,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RunManager" selected="Python.LizardSpock (1)">
     <configuration name="LizardSpock (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -596,8 +546,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testing" />
         <item itemvalue="Python.LizardSpock (1)" />
+        <item itemvalue="Python.testing" />
         <item itemvalue="Python.LizardSpock" />
         <item itemvalue="Python.draft (1)" />
         <item itemvalue="Python.fizzbuzz" />
@@ -685,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542315378695</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implementing bonus game">
+      <created>1542491854084</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542491854084</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -706,11 +663,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48682824" weight="0.23175965" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48682824" weight="0.17703862" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.12017167" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.12017167" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894625" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51317173" side_tool="true" weight="0.32939914" />
@@ -756,7 +713,8 @@
     <MESSAGE value="05 - incomplete before work" />
     <MESSAGE value=":)" />
     <MESSAGE value=":) + assessmentwork" />
-    <option name="LAST_COMMIT_MESSAGE" value=":) + assessmentwork" />
+    <MESSAGE value="implementing bonus game" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing bonus game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,11 +723,6 @@
           <url>file://$PROJECT_DIR$/RealPython/Part 1/src/functions.py</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -995,16 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/snake.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -1035,23 +978,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="80" column="101" lean-forward="true" selection-start-line="80" selection-start-column="101" selection-end-line="80" selection-end-column="101" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="89" lean-forward="true" selection-start-line="81" selection-start-column="89" selection-end-line="81" selection-end-column="89" />
           <folding>
-            <element signature="e#65#76#0" expanded="true" />
-            <element signature="e#154#1773#0" />
-            <element signature="e#163#300#1" />
-            <marker date="1542479307982" expanded="true" signature="1892:2884" ph="..." />
+            <element signature="e#67#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py">
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
