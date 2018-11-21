@@ -8,13 +8,8 @@
     <bookmark url="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" line="130" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="removed main_menu(), implemented it in main()&#10;lots of other fixes.">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/issorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/lecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/orchards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/unique.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/08 Collecting Collections/src/lecture.py" afterDir="false" />
+    <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +22,7 @@
     <session id="-203311601">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="27" />
           <entry key="spec" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -35,21 +30,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="27" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="13" />
-          <entry key="py" value="11715" />
+          <entry key="dummy" value="32" />
+          <entry key="py" value="12571" />
           <entry key="txt" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="91" />
-          <entry key="Python" value="11715" />
+          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="Python" value="12571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -105,74 +100,110 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="86" selection-start-line="86" selection-end-line="93" selection-end-column="16" />
+            <state relative-caret-position="493">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding>
-                <element signature="e#67#78#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1542790290524" expanded="true" signature="305:601" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="986">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/lecture.py">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/08 Collecting Collections/src/lecture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="612">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1541804112238" expanded="true" signature="506:1292" ph="..." />
+                <marker date="1541804112238" expanded="true" signature="1322:1327" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/issorted.py">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/unique.py">
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="408">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/orchards.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -244,8 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RealPython/Part 1/src/invest.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/src/eksponent.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/src/debuggertest.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/simple.py" />
@@ -295,6 +324,8 @@
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/orchards.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/issorted.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/08 Collecting Collections/src/lecture.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/secrets.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" />
       </list>
     </option>
   </component>
@@ -317,48 +348,57 @@
         <subPane>
           <expand>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="07  Making Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
-              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="07  Making Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="RealPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="08 Collecting Collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="08 Collecting Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="09 Secret Messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="09 Secret Messages" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07000" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -395,7 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lecture (1)">
+  <component name="RunManager" selected="Python.renaming-files">
     <configuration name="issorted" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,27 +478,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lecture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/lecture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="loop1" type="PythonConfigurationType" factoryName="Python">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -480,7 +499,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shoppinglist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="renaming-files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -488,11 +507,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="secrets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\ehr\PycharmProjects\noroff\UC1PR1102\09 Secret Messages\src\renaming-files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -524,19 +564,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.loop1" />
-      <item itemvalue="Python.lecture" />
-      <item itemvalue="Python.shoppinglist" />
       <item itemvalue="Python.issorted" />
       <item itemvalue="Python.unique" />
       <item itemvalue="Python.lecture (1)" />
+      <item itemvalue="Python.secrets" />
+      <item itemvalue="Python.renaming-files" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.renaming-files" />
+        <item itemvalue="Python.secrets" />
         <item itemvalue="Python.lecture (1)" />
         <item itemvalue="Python.unique" />
         <item itemvalue="Python.issorted" />
-        <item itemvalue="Python.shoppinglist" />
-        <item itemvalue="Python.lecture" />
       </list>
     </recent_temporary>
   </component>
@@ -648,20 +688,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48682824" visible="true" weight="0.17703862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48682824" visible="true" weight="0.17692907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.12017167" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894625" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894625" weight="0.3289166" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51317173" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4963119" weight="0.32939914" />
@@ -725,13 +765,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/add underscores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RealPython/Part 1/00 Before github/invest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -771,14 +804,76 @@
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc3.py" />
     <entry file="file://$USER_HOME$/Desktop/Mandal 1-4s 020718.xml" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1541804112238" expanded="true" signature="506:1292" ph="..." />
+            <marker date="1541804112238" expanded="true" signature="1322:1327" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/lecture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -932,9 +1027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-409324644/_curses.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-409324644/_curses.py" />
     <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -987,6 +1080,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1542790290524" expanded="true" signature="305:601" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
