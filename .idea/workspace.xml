@@ -9,8 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/noroff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/noroff.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,190 +22,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-203311601">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="27" />
-          <entry key="spec" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="27" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="32" />
-          <entry key="py" value="12571" />
-          <entry key="txt" value="78" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="110" />
-          <entry key="Python" value="12571" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-949551089">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="390" />
-          <entry key="dummy" value="21" />
-          <entry key="md" value="365" />
-          <entry key="py" value="21980" />
-          <entry key="txt" value="166" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="365" />
-          <entry key="PLAIN_TEXT" value="187" />
-          <entry key="Python" value="22370" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="3" />
-          <entry key="py" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="3" />
-          <entry key="Python" value="41" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#67#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
-                <marker date="1542790290524" expanded="true" signature="305:601" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1541804112238" expanded="true" signature="506:1292" ph="..." />
-                <marker date="1541804112238" expanded="true" signature="1322:1327" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -316,8 +167,6 @@
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/lecture.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/unique.py" />
@@ -326,14 +175,16 @@
         <option value="$PROJECT_DIR$/UC1PR1102/08 Collecting Collections/src/lecture.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/secrets.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="758" />
-    <option name="y" value="33" />
-    <option name="width" value="781" />
-    <option name="height" value="1000" />
+    <option name="x" value="184" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,6 +228,27 @@
               <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
               <item name="noroff" type="462c0819:PsiDirectoryNode" />
               <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+              <item name="02 LizardSpock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="00 ASSESSMENTS" type="462c0819:PsiDirectoryNode" />
+              <item name="02 LizardSpock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
               <item name="09 Secret Messages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -389,21 +260,13 @@
             </path>
             <path>
               <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07000" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="noroff" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,8 +298,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.renaming-files">
-    <configuration name="issorted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.LizardSpock">
+    <configuration name="LizardSpock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,11 +307,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/issorted.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -564,19 +427,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.loop1" />
-      <item itemvalue="Python.issorted" />
       <item itemvalue="Python.unique" />
       <item itemvalue="Python.lecture (1)" />
       <item itemvalue="Python.secrets" />
       <item itemvalue="Python.renaming-files" />
+      <item itemvalue="Python.LizardSpock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LizardSpock" />
         <item itemvalue="Python.renaming-files" />
         <item itemvalue="Python.secrets" />
         <item itemvalue="Python.lecture (1)" />
         <item itemvalue="Python.unique" />
-        <item itemvalue="Python.issorted" />
       </list>
     </recent_temporary>
   </component>
@@ -688,15 +551,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13590844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48682824" visible="true" weight="0.17692907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48682824" visible="true" weight="0.13194445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,6 +568,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51317173" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4963119" weight="0.32939914" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,9 +600,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07000 kalkulator" />
@@ -759,9 +635,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -804,76 +677,14 @@
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc3.py" />
     <entry file="file://$USER_HOME$/Desktop/Mandal 1-4s 020718.xml" />
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1541804112238" expanded="true" signature="506:1292" ph="..." />
-            <marker date="1541804112238" expanded="true" signature="1322:1327" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/vt.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/test.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/mt.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/at.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/exec.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/functions.py" />
     <entry file="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/lecture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1028,27 +839,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-409324644/_curses.py" />
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="86" selection-start-line="86" selection-end-line="93" selection-end-column="16" />
-          <folding>
-            <element signature="e#67#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1085,10 +879,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
           <folding>
-            <marker date="1542790290524" expanded="true" signature="305:601" ph="..." />
+            <element signature="e#67#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

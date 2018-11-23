@@ -360,6 +360,8 @@ def main():
                 print("\nYou managed to score {} points in snake!\n".format(snake_score))
             continue
 
+if sys.version_info[0] < 3:
+    raise Exception("Must be using Python 3")
 
 if __name__ == "__main__":
     main()
