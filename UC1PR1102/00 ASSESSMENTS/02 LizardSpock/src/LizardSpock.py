@@ -1,6 +1,5 @@
 """
 LizardSpock.py
-Version: 2.0
 Eirik Rynning 2018
 """
 
@@ -123,6 +122,8 @@ def user_guide():
 
 def selection():
     """Ask user for selection, checks if its valid before returning the result.
+    Contrary to getinput() and gethiddeninput(), this also checks whether or not
+    the choice is a valid choice.
 
     Returns:
         The users selection as a str.
@@ -198,7 +199,7 @@ def the_score_is(name1, name2, score1, score2):
 
 
 def one_player(p1, p2):
-    """Starts a new single player game.
+    """Starts a new single player game loop.
 
     Args:
         p1 (str): Player 1's name.
@@ -225,7 +226,7 @@ def one_player(p1, p2):
                 break
             elif player1 == player2:
                 print("\nThis round was a DRAW!")
-                print("Both of you chose", conversion(player1) + "\n")
+                print("Both of you chose {}\n".format(conversion(player1)))
                 break
             else:
                 print(its_simple(player1, player2))
@@ -244,21 +245,21 @@ def one_player(p1, p2):
 
 
 def two_player(p1, p2):
-    """Starts a new two player game.
+    """Starts a new two player loop.
 
     Args:
         p1 (str): Player 1's name.
-        p2 (str): PLayer 2's name.
+        p2 (str): Player 2's name.
     """
     while True:
         while True:
             clear_screen()
-            loading(10)
+            loading(30)
             print(p1.upper() + "!\nIts your turn to make a choice!\n")
             selection_text()
             player1 = selection()
             clear_screen()
-            loading(10)
+            loading(30)
             print(p2.upper() + "!\nIts your turn to make a choice!\n")
             selection_text()
             player2 = selection()
@@ -301,9 +302,11 @@ clear_screen()
 
 
 def main():
-    """Main loop of this program."""
+    """Main loop of this game.
+    Asks user for the input, and calls the appropriate function.
+    """
     while True:
-        global score_count  # We need to access the global score.
+        global score_count  # We need to access the score globally.
 
         # Declaring some variables
         score_count = [0, 0]
@@ -347,7 +350,7 @@ def main():
             quit()
 
         # If no valid choice, clear screen and go back to top.
-        # Also prints any scored points, if any.
+        # Also prints any scored points from previous if-statements, if any.
 
         else:
             clear_screen()
@@ -360,8 +363,14 @@ def main():
                 print("\nYou managed to score {} points in snake!\n".format(snake_score))
             continue
 
+# Some functions and features doesn't work in my testing with Python 2.x.x.
+# Therefore, lets make sure the user uses version 3 or above.
+
 if sys.version_info[0] < 3:
-    raise Exception("Must be using Python 3")
+    raise Exception("Please run this script in python version 3 or above.")
+
+# If we are running this as the main program (not being imported externally, then run main()
+# This way, it is possible to call the game from another script later on if needed.
 
 if __name__ == "__main__":
     main()

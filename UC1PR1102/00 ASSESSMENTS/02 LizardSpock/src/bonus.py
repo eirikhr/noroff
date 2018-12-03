@@ -2,12 +2,12 @@ import curses
 from curses import KEY_RIGHT, KEY_LEFT, KEY_DOWN, KEY_UP
 from random import randint
 
-WIDTH = 35
-HEIGHT = 20
+WIDTH = 60
+HEIGHT = 30
 SNAKE_LENGTH = 15
 SNAKE_X = SNAKE_LENGTH + 1
 SNAKE_Y = 3
-SPEED = 300
+SPEED = 90
 MAX_X = WIDTH - 2
 MAX_Y = HEIGHT - 2
 
@@ -44,7 +44,7 @@ class Snake(object):
 
     @property
     def score(self):
-        return 'Score: {}'.format(self.hit_score)
+        return "Score: {}".format(self.hit_score)
 
     def bodyadd(self, body_list):
         self.body_list.extend(body_list)
@@ -114,7 +114,7 @@ class Snake(object):
 
 
 class Body(object):
-    def __init__(self, x, y, char='-'):
+    def __init__(self, x, y, char="-"):
         self.x = x
         self.y = y
         self.char = char
@@ -125,7 +125,7 @@ class Body(object):
 
 
 class Food(object):
-    def __init__(self, window, char='x'):
+    def __init__(self, window, char="x"):
         self.x = randint(1, MAX_X)
         self.y = randint(1, MAX_Y)
         self.char = char
@@ -150,7 +150,7 @@ def main():
 
     # Adding snake and food to window
     snake = Snake(SNAKE_X, SNAKE_Y, window)
-    food = Food(window, 'x')
+    food = Food(window, "x")
 
     while True:
         window.clear()
@@ -181,6 +181,7 @@ def main():
 
     curses.endwin()
     return snake.hit_score
+
 
 if __name__ == "__main__":
     main()
