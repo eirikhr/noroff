@@ -7,10 +7,12 @@ Eirik Rynning 2018
 import time
 import sys
 import os
+import bonus
+import bonus2
 
 from getpass import getpass
 from random import randint
-from bonus import main as bonusgame
+
 
 
 def clear_screen():
@@ -117,7 +119,7 @@ def user_guide():
     clear_screen()
     print("------ USER GUIDE ------\n")
     print("To be completed....")
-    getinput("Press anything to continue...")
+    getinput("Press enter to continue...")
 
 
 def selection():
@@ -308,7 +310,7 @@ def main():
     while True:
         global score_count  # We need to access the score globally.
 
-        # Declaring some variables
+        # Initializing variables
         score_count = [0, 0]
         snake_score = 0
         p1 = ""
@@ -318,9 +320,10 @@ def main():
         print("------ MAIN MENU ------\n")
         print("1: New Single Player Game.")
         print("2: New Two Player Game.")
-        print("3: Bonus Feature.                       ------@ x")
-        print("4: User Guide.")
-        print("5: Exit the game.")
+        print("3: Bonus Feature. Appropriate version!  :)")
+        print("4: Bonus Feature. (with Text-based User Interface)  ~~~@ x")
+        print("5: User Guide.")
+        print("6: Exit the game.")
         print("\nNote: Quit the game completely at any time by pressing the \"q\" button\n")
 
         # Gets user input.
@@ -339,13 +342,16 @@ def main():
             two_player(p1, p2)
         if maininput == "3":
             clear_screen()
+            bonus2.main()
+        if maininput == "4":
+            clear_screen()
             print("\nPress ESCAPE key to return to main menu!\n\n")
             print("Initializing...\n\n")
             loading(300)
-            snake_score = bonusgame()
-        if maininput == "4":
-            user_guide()
+            snake_score = bonus.main()
         if maininput == "5":
+            user_guide()
+        if maininput == "6":
             print("Thanks for playing! :)")
             quit()
 
@@ -367,7 +373,7 @@ def main():
 # Therefore, lets make sure the user uses version 3 or above.
 
 if sys.version_info[0] < 3:
-    raise Exception("Please run this script in python version 3 or above.")
+    raise Exception("Please run this game in python version 3 or above.")
 
 # If we are running this as the main program (not being imported externally, then run main()
 # This way, it is possible to call the game from another script later on if needed.

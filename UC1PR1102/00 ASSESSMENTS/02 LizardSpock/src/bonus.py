@@ -10,15 +10,13 @@ SNAKE_Y = 3
 SPEED = 90
 MAX_X = WIDTH - 2
 MAX_Y = HEIGHT - 2
+KEY_MAP = {
+    KEY_UP: KEY_DOWN, KEY_DOWN: KEY_UP,
+    KEY_LEFT: KEY_RIGHT, KEY_RIGHT: KEY_LEFT,
+}
 
 
-class Snake(object):
-    # Opposite direction map. For not being able to change directions into the snake.
-    OPP_DIR_MAP = {
-        KEY_UP: KEY_DOWN, KEY_DOWN: KEY_UP,
-        KEY_LEFT: KEY_RIGHT, KEY_RIGHT: KEY_LEFT,
-    }
-
+class Snake():
     def __init__(self, x, y, window):
         self.body_list = []
         self.hit_score = 0
@@ -31,7 +29,7 @@ class Snake(object):
         # Defining the window
         self.window = window
         # Forcing snake to move to right when the game initializes.
-        self.direction = KEY_RIGHT
+        self.direction = KEY_UP
         # Set the heads coordinates in the windows.
         self.last_head_coor = (x, y)
         # Defining the movement map.
@@ -42,9 +40,6 @@ class Snake(object):
             KEY_RIGHT: self.move_right
         }
 
-    @property
-    def score(self):
-        return "Score: {}".format(self.hit_score)
 
     def bodyadd(self, body_list):
         self.body_list.extend(body_list)
@@ -60,7 +55,7 @@ class Snake(object):
 
     @property
     def collided(self):
-        """Checks if head has hit the Body"""
+        """Check if head has hit the Body"""
         return any([body.coor == self.head.coor
                     for body in self.body_list[:-1]])
 
@@ -74,7 +69,7 @@ class Snake(object):
         self.direction_map[self.direction]()
 
     def new_direction(self, direction):
-        if direction != Snake.OPP_DIR_MAP[self.direction]:
+        if direction != KEY_MAP[self.direction]:
             self.direction = direction
 
     def add(self):
@@ -89,6 +84,10 @@ class Snake(object):
     @property
     def coor(self):
         return self.head.x, self.head.y
+
+    @property
+    def score(self):
+        return "Score: {}".format(self.hit_score)
 
     # Moving functions:
 
@@ -113,18 +112,7 @@ class Snake(object):
             self.head.x = 1
 
 
-class Body(object):
-    def __init__(self, x, y, char="-"):
-        self.x = x
-        self.y = y
-        self.char = char
-
-    @property
-    def coor(self):
-        return self.x, self.y
-
-
-class Food(object):
+class Food():
     def __init__(self, window, char="x"):
         self.x = randint(1, MAX_X)
         self.y = randint(1, MAX_Y)
@@ -139,9 +127,21 @@ class Food(object):
         self.y = randint(1, MAX_Y)
 
 
+class Body():
+    def __init__(self, x, y, char="~"):
+        self.x = x
+        self.y = y
+        self.char = char
+
+    @property
+    def coor(self):
+        return self.x, self.y
+
+
+
 def main():
-    curses.initscr()
-    window = curses.newwin(HEIGHT, WIDTH, 0, 0)
+    curses.initscr()  # Initialize curses in Terminal window
+    window = curses.newwin(HEIGHT, WIDTH, 0, 0)  # Create new window with given size
     window.timeout(SPEED)
     window.keypad(1)
     curses.noecho()
@@ -150,20 +150,18 @@ def main():
 
     # Adding snake and food to window
     snake = Snake(SNAKE_X, SNAKE_Y, window)
-    food = Food(window, "x")
+    food = Food(window)
 
     while True:
         window.clear()
         window.border(0)
         food.add()
         snake.add()
-        window.addstr(0, 10, snake.score)
+        window.addstr(0, 50, snake.score)
         keypressed = window.getch()
 
-        if keypressed == 27:
-            break
 
-        if keypressed == 113:
+        if keypressed == 113 or keypressed == 27:
             print("Thanks for playing :)")
             quit()
 
@@ -172,6 +170,7 @@ def main():
 
         if snake.head.x == food.x and snake.head.y == food.y:
             curses.flash()
+            curses.beep()
             snake.eat(food)
 
         snake.update()
