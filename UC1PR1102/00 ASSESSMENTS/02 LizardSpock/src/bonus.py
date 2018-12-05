@@ -1,3 +1,9 @@
+"""
+bonus.py
+Eirik Rynning 2018
+"""
+
+
 import curses
 from curses import KEY_RIGHT, KEY_LEFT, KEY_DOWN, KEY_UP
 from random import randint
@@ -29,7 +35,7 @@ class Snake():
         # Defining the window
         self.window = window
         # Forcing snake to move to right when the game initializes.
-        self.direction = KEY_UP
+        self.direction = KEY_RIGHT
         # Set the heads coordinates in the windows.
         self.last_head_coor = (x, y)
         # Defining the movement map.
@@ -53,11 +59,6 @@ class Snake():
             self.timeout -= 5
             self.window.timeout(self.timeout)
 
-    @property
-    def collided(self):
-        """Check if head has hit the Body"""
-        return any([body.coor == self.head.coor
-                    for body in self.body_list[:-1]])
 
     def update(self):
         """Creating animation updating function."""
@@ -76,6 +77,11 @@ class Snake():
         for body in self.body_list:
             self.window.addstr(body.y, body.x, body.char)
 
+    @property
+    def collided(self):
+        """Check if head has hit the Body"""
+        return any([body.coor == self.head.coor
+                    for body in self.body_list[:-1]])
     @property
     def head(self):
         """Places the head of snake in front of the body. """
@@ -170,7 +176,7 @@ def main():
 
         if snake.head.x == food.x and snake.head.y == food.y:
             curses.flash()
-            curses.beep()
+            # curses.beep()
             snake.eat(food)
 
         snake.update()

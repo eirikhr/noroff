@@ -1,5 +1,8 @@
-"""Hangman
-Eirik Rynning 2018"""
+"""
+bonus2.py
+Eirik Rynning 2018
+"""
+
 
 import random
 import LizardSpock
@@ -9,7 +12,7 @@ WORDS = "words.txt"
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 
-def getinput(printstring=""):
+def get_input(printstring=""):
     """Outputs the argument to screen, and returns the user input.
 
     Args
@@ -28,6 +31,7 @@ def getinput(printstring=""):
     return value
 
 
+
 def get_word(maxlength):
     """Get random word from word list
 
@@ -37,23 +41,20 @@ def get_word(maxlength):
     Returns:
         Randomly selected word from WORDS, but not longer than maxlength.
     """
-    processed_words = 0
-    selected_word = None
+    selected_words = []
 
-    with open(WORDS, "r") as i:  # Open wordlist in reading mode.
+    with open(WORDS, "r") as i:  # Open wordlist in reading mode, and perform:
         for word in i:
             if len(word) > maxlength:  # Don't pick words over the maximum length
                 continue
-            processed_words += 1
-            if random.randint(1, processed_words) == 1:  # Let's get the selected word.
-                selected_word = word
-    return selected_word
+            selected_words.append(word)
+    return random.choice(selected_words)
 
 
 def get_length():
     """Get maximum length from user."""
     while True:
-        max_length = getinput("Please input the maximum length of the word you want to guess [4-16]:")
+        max_length = get_input("Please input the maximum length of the word you want to guess [4-16]:")
         try:
             max_length = int(max_length)
             if 4 <= max_length <= 16:
@@ -67,7 +68,7 @@ def get_length():
 def get_attempts():
     """Get maximum attempts from user."""
     while True:
-        attempts = getinput("Please input the maximum incorrect attemps you want to have [1-25]:")
+        attempts = get_input("Please input the maximum incorrect attemps you want to have [1-25]:")
         try:
             attempts = int(attempts)
             if 1 <= attempts <= 25:
@@ -80,14 +81,15 @@ def get_attempts():
 
 def hide_word(word, hidden_word):
     """Hide unguessed characters in the word"""
-    disp_word = "".join([letter if hidden_word[i] else "*" for i, letter in enumerate(word)])
-    return disp_word
+    replaced = "".join([letter if hidden_word[i] else "*" for i, letter in enumerate(word)])
+    return replaced
 
 
 def get_guess(remaining):
     """Get the next guess"""
     while True:
-        letter = getinput("Guess the next letter:")
+        letter = get_input("Guess the next letter:")
+        letter = letter.lower()
         if len(letter) != 1:
             print("{} is not a single letter.\n"
                   "You can only guess one letter at the time".format(letter))
@@ -104,13 +106,13 @@ def get_guess(remaining):
 def main():
     """Start the main game loop."""
     LizardSpock.loading()
-    print("Welcome to Hangman")
+    print("Welcome to Guess the word!")
     attempts = get_attempts()
     max_length = get_length()
-    print("Getting a random word")
+    print("Getting a random word...")
     LizardSpock.loading()
     word = get_word(max_length)
-    print(word)  # testing
+    # print(word)  # For testing
 
     # Initializing variables
     hidden_word = [letter not in alphabet for letter in word]
@@ -121,8 +123,8 @@ def main():
     while attempts > 0 and not solved:
         # LizardSpock.clear_screen()
         print("Word:\n {}".format(hide_word(word, hidden_word)).upper())
-        print("Attempts left:\n\n {}".format(attempts))
-        print("Guessed letters:\n\n {}\n\n\n".format("".join(guessed_letters)))
+        print("Attempts left:\n\n {}\n".format(attempts))
+        print("Guessed letters:\n\n {}\n\n".format("".join(guessed_letters)))
 
         # Get guess
         guess = get_guess(remaining)
@@ -130,15 +132,14 @@ def main():
 
         # Check if guess is in the word
         if guess in word:
-            print("NICE!")
-            print("{} is in the word!\n".format(guess.upper()))
+            print("Sweet! {} is in the word!\n".format(guess.upper()))
 
             for i in range(len(word)):
                 if word[i] == guess:
                     hidden_word[i] = True
 
         else:
-            print("{} is NOT in the word!\n".format(guess.upper()))
+            print("Unfortunately, {} is not in the word!\n".format(guess.upper()))
             attempts -= 1
             guessed_letters.append(guess)
 
@@ -149,12 +150,12 @@ def main():
 
     if solved:
         print("You won the game!!")
-        print("The word was {}".format(word))
+        print("The word was {}".format(word.upper()))
         input("press enter to continue...")
 
     else:
         print("You lost the game this time :(")
-        print("The word is {}".format(word))
+        print("The word was {}".format(word.upper()))
         input("press enter to continue...")
 
 

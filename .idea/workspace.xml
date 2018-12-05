@@ -5,18 +5,15 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/UC1PR1102/05 Python Library &amp; Boolean Expressions/src/prod alarm.py" line="3" />
-    <bookmark url="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" line="131" />
+    <bookmark url="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" line="148" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71f9546-5c5c-47ce-90a8-e08919db24a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/10 Unicode, Strings &amp; Files/src/lecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/12 A Perfect World (Debugging)/src/lect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UC1PR1102/13 Object Oriented Programming/src/lecture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/words.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,21 +155,24 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/13 Object Oriented Programming/src/lecture.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state>
+              <caret selection-end-line="4" />
+              <folding>
+                <element signature="e#54#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,10 +180,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="160" column="33" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="33" />
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="158" column="43" lean-forward="true" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+              <folding>
+                <element signature="e#43#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,22 +206,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WIDTH</find>
-      <find>gethidd</find>
-      <find>render</find>
-      <find>MAX_X</find>
-      <find>event</find>
-      <find>direction</find>
-      <find>change_direction</find>
-      <find>make a</find>
-      <find>in snake</find>
       <find>os.system('cls' if os.name == 'nt' else 'clear')  # Clears screen for readability</find>
       <find>clear_screen()</find>
       <find>selection</find>
@@ -221,7 +224,6 @@
       <find>Final score of</find>
       <find>its_simple</find>
       <find>global</find>
-      <find>score_count</find>
       <find>clear_screen</find>
       <find>main_menu()</find>
       <find>selection()</find>
@@ -231,6 +233,16 @@
       <find>'</find>
       <find>,</find>
       <find>getch</find>
+      <find>object</find>
+      <find>OPP</find>
+      <find>num_words_processed</find>
+      <find>clear_sc</find>
+      <find>getinp</find>
+      <find>hang</find>
+      <find>south</find>
+      <find>getinput</find>
+      <find>score_count</find>
+      <find>maininput</find>
     </findStrings>
     <replaceStrings>
       <replace>Kveld</replace>
@@ -251,6 +263,10 @@
       <replace>its_simple</replace>
       <replace>two_player</replace>
       <replace>snake_score</replace>
+      <replace>processed_words</replace>
+      <replace>get_input</replace>
+      <replace>SCORE_COUNT</replace>
+      <replace>main_input</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -259,10 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/factors.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/src/CSDojo Python 2 if else.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/Conditional Logic/src/5letters.py" />
-        <option value="$PROJECT_DIR$/RealPython/Part 1/src/tryexcept.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py" />
         <option value="$USER_HOME$/Dropbox/Eirik/07000/src/setup.py" />
         <option value="$USER_HOME$/Dropbox/Eirik/07000/src/calc2.py" />
@@ -295,7 +307,6 @@
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/luls.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/README.md" />
         <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing2.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/lecture.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/unique.py" />
@@ -304,20 +315,25 @@
         <option value="$PROJECT_DIR$/UC1PR1102/08 Collecting Collections/src/lecture.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/secrets.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" />
-        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/12 A Perfect World (Debugging)/src/lect.py" />
         <option value="$PROJECT_DIR$/RealPython/Part 1/01 After/01 Conditional Logic/src/errors.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/10 Unicode, Strings &amp; Files/src/lecture.py" />
         <option value="$PROJECT_DIR$/UC1PR1102/13 Object Oriented Programming/src/lecture.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/hangman.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/words.txt" />
+        <option value="$PROJECT_DIR$/UC1PR1102/Extra/pff.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py" />
+        <option value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-648" />
+    <option name="y" value="288" />
+    <option name="width" value="1280" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -445,6 +461,12 @@
             </path>
             <path>
               <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noroff3" type="462c0819:PsiDirectoryNode" />
+              <item name="UC1PR1102" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noroff3" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -484,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lecture">
+  <component name="RunManager" selected="Python.hangman">
     <configuration name="LizardSpock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="noroff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -498,6 +520,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="noroff" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Eirik\PycharmProjects\noroff3\UC1PR1102\00 ASSESSMENTS\02 LizardSpock\src\bonus2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -590,42 +633,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="renaming-files" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="noroff" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UC1PR1102/09 Secret Messages/src/renaming-files.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.loop1" />
-      <item itemvalue="Python.renaming-files" />
       <item itemvalue="Python.LizardSpock" />
       <item itemvalue="Python.lecture" />
       <item itemvalue="Python.lect" />
       <item itemvalue="Python.lecture (1)" />
+      <item itemvalue="Python.hangman" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hangman" />
         <item itemvalue="Python.lecture" />
         <item itemvalue="Python.lecture (1)" />
         <item itemvalue="Python.lect" />
         <item itemvalue="Python.LizardSpock" />
-        <item itemvalue="Python.renaming-files" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +746,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542577423795</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="13">
+      <created>1543832596155</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543832596155</updated>
+    </task>
+    <task id="LOCAL-00014" summary="yup">
+      <created>1543937299208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543937299208</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -737,7 +773,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
@@ -745,7 +781,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48630136" visible="true" weight="0.27652735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48630136" weight="0.098606646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -760,27 +796,6 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48630136" visible="true" weight="0.27652735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.12017167" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894625" weight="0.3289166" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.51369864" side_tool="true" visible="true" weight="0.27652735" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4963119" weight="0.32939914" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -831,7 +846,9 @@
     <MESSAGE value=":) + assessmentwork" />
     <MESSAGE value="implementing bonus game" />
     <MESSAGE value="removed main_menu(), implemented it in main()&#10;lots of other fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="removed main_menu(), implemented it in main()&#10;lots of other fixes." />
+    <MESSAGE value="13" />
+    <MESSAGE value="yup" />
+    <option name="LAST_COMMIT_MESSAGE" value="yup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,14 +862,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/kalkulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/kalkulator.spec" />
     <entry file="file://$USER_HOME$/Dropbox/Eirik/07000/src/setup.py" />
     <entry file="file://$PROJECT_DIR$/RealPython/Part 1/src/invest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1003,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-409324644/_curses.py" />
     <entry file="file://$PROJECT_DIR$/UC1PR1102/07  Making Lists/src/shoppinglist.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1063,13 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="74" selection-start-line="74" selection-end-line="75" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/12 A Perfect World (Debugging)/src/lect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1080,27 +1075,61 @@
     <entry file="file://$PROJECT_DIR$/UC1PR1102/10 Unicode, Strings &amp; Files/src/lecture.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/13 Object Oriented Programming/src/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/pff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/Extra/LizardSpock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="938">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+          <folding>
+            <element signature="e#54#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="160" column="33" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/13 Object Oriented Programming/src/lecture.py">
+    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/bonus2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UC1PR1102/00 ASSESSMENTS/02 LizardSpock/src/LizardSpock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="698">
+          <caret line="158" column="43" lean-forward="true" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

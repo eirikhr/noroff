@@ -14,7 +14,6 @@ from getpass import getpass
 from random import randint
 
 
-
 def clear_screen():
     """Clears screen for readability."""
     # If client runs Windows (NT), uses "cls", else uses "clear".
@@ -76,7 +75,7 @@ def its_simple(r1, r2):
         return "PAPER disproves SPOCK."
 
 
-def getinput(printstring=""):
+def get_input(printstring=""):
     """Outputs the argument to screen, and returns the user input.
 
     Args
@@ -95,7 +94,7 @@ def getinput(printstring=""):
     return value
 
 
-def gethiddeninput(printstring=""):
+def get_hidden_input(printstring=""):
     """Outputs the argument to screen, and takes a hidden user input using getpass.
 
     Args:
@@ -115,23 +114,38 @@ def gethiddeninput(printstring=""):
 
 
 def user_guide():
-    """Sends the User Guide to the user."""
+    """Prints the User Guide to the terminal."""
     clear_screen()
     print("------ USER GUIDE ------\n")
-    print("To be completed....")
-    getinput("Press enter to continue...")
+    print("* Lizard Spock 1.0")
+    print("(C) Eirik Rynning 2018\n")
+    print("RULES:")
+    print("* Scissors cuts Paper.")
+    print("* Paper covers Rock.")
+    print("* Rock crushes Lizard.")
+    print("* Lizard poisons Spock.")
+    print("* Spock smashes Scissors.")
+    print("* Scissors decapitates Lizard.")
+    print("* Lizard eats Paper.")
+    print("* Paper disproves Spock.")
+    print("* Spock vaporizes Rock.")
+    print("* Rock crushes Scissors. (As always has.)\n")
+    print("HOW:")
+    print("* Use the number keys on your keyboard to select a menu choice.")
+    print("* Press enter after selecting a choice.\n")
+    get_input("Press enter to continue to main menu...")
 
 
 def selection():
     """Ask user for selection, checks if its valid before returning the result.
-    Contrary to getinput() and gethiddeninput(), this also checks whether or not
+    Contrary to get_input() and get_hidden_input(), this also checks whether or not
     the choice is a valid choice.
 
     Returns:
         The users selection as a str.
     """
     while True:
-        value = gethiddeninput("\nPlease select your combat tool.")
+        value = get_hidden_input("\nPlease select your combat tool.")
         if value == "1" or value == "2" or value == "3" or value == "4" or value == "5":
             return value
         else:
@@ -142,7 +156,8 @@ def selection():
 
 
 def conversion(value):
-    """Converts numeral selection to its text value.
+    """Converts numeral selection to its text value. Use case is when we
+    want to tell the players about their choice.
 
      Args:
         value (str): Numerical value of players choice.
@@ -224,7 +239,7 @@ def one_player(p1, p2):
                 print(its_simple(player1, player2))
                 print()
                 print(p1.upper(), "IS THE WINNER!\n")
-                score_count[0] = score_count[0] + 1
+                SCORE_COUNT[0] = SCORE_COUNT[0] + 1
                 break
             elif player1 == player2:
                 print("\nThis round was a DRAW!")
@@ -234,12 +249,12 @@ def one_player(p1, p2):
                 print(its_simple(player1, player2))
                 print()
                 print(p2.upper(), "IS THE WINNER!\n")
-                score_count[1] = score_count[1] + 1
+                SCORE_COUNT[1] = SCORE_COUNT[1] + 1
                 break
         print("POINT OVERVIEW:")
-        the_score_is(p1, p2, score_count[0], score_count[1])
-        repeat = getinput("Want to play again?\n\nEnter no (n) to return to the main menu.\n"
-                          "Press anything else to continue.")
+        the_score_is(p1, p2, SCORE_COUNT[0], SCORE_COUNT[1])
+        repeat = get_input("Want to play again?\n\nEnter no (n) to return to the main menu.\n"
+                           "Press anything else to continue.")
         if repeat.lower() == "no" or repeat.lower() == "n":
             break
         else:
@@ -273,7 +288,7 @@ def two_player(p1, p2):
                 print(its_simple(player1, player2))
                 print()
                 print(p1.upper(), "IS THE WINNER!\n")
-                score_count[0] = score_count[0] + 1
+                SCORE_COUNT[0] = SCORE_COUNT[0] + 1
                 break
             elif player1 == player2:
                 print("\nThis round was a DRAW!")
@@ -283,12 +298,12 @@ def two_player(p1, p2):
                 print(its_simple(player1, player2))
                 print()
                 print(p2.upper(), "IS THE WINNER!\n")
-                score_count[1] = score_count[1] + 1
+                SCORE_COUNT[1] = SCORE_COUNT[1] + 1
                 break
         print("POINT OVERVIEW:")
-        the_score_is(p1, p2, score_count[0], score_count[1])
-        repeat = getinput("Want to play again?\n\nEnter no (n) to return to the main menu.\n"
-                          "Press anything else to continue.")
+        the_score_is(p1, p2, SCORE_COUNT[0], SCORE_COUNT[1])
+        repeat = get_input("Want to play again?\n\nEnter no (n) to return to the main menu.\n"
+                           "Press anything else to continue.")
         if repeat.lower() == "no" or repeat.lower() == "n":
             break
         else:
@@ -296,8 +311,8 @@ def two_player(p1, p2):
             continue
 
 
-# Declaring Global Variables
-score_count = [0, 0]
+# Declaring Global Score Variable
+SCORE_COUNT = [0, 0]
 
 # Clearing screen before init
 clear_screen()
@@ -308,10 +323,10 @@ def main():
     Asks user for the input, and calls the appropriate function.
     """
     while True:
-        global score_count  # We need to access the score globally.
+        global SCORE_COUNT  # We need to access the score globally.
 
         # Initializing variables
-        score_count = [0, 0]
+        SCORE_COUNT = [0, 0]
         snake_score = 0
         p1 = ""
         p2 = ""
@@ -320,38 +335,38 @@ def main():
         print("------ MAIN MENU ------\n")
         print("1: New Single Player Game.")
         print("2: New Two Player Game.")
-        print("3: Bonus Feature. Appropriate version!  :)")
-        print("4: Bonus Feature. (with Text-based User Interface)  ~~~@ x")
+        print("3: Bonus Feature - Guess the word!")
+        print("4: Bonus Feature - Snake using curses ~~~~@  x")
         print("5: User Guide.")
         print("6: Exit the game.")
         print("\nNote: Quit the game completely at any time by pressing the \"q\" button\n")
 
         # Gets user input.
-        maininput = getinput("Please enter your selection.")
+        main_input = get_input("Please enter your selection.")
 
         # Decide where to send user.
-        if maininput == "1":
-            p1 = getinput("Please enter Player 1's name:")
+        if main_input == "1":
+            p1 = get_input("Please enter Player 1's name:")
             loading(30)
             p2 = "Computer"
             one_player(p1, p2)
-        if maininput == "2":
-            p1 = getinput("Please enter Player 1's name:")
-            p2 = getinput("Please enter Player 2's name:")
+        if main_input == "2":
+            p1 = get_input("Please enter Player 1's name:")
+            p2 = get_input("Please enter Player 2's name:")
             loading(30)
             two_player(p1, p2)
-        if maininput == "3":
+        if main_input == "3":
             clear_screen()
             bonus2.main()
-        if maininput == "4":
+        if main_input == "4":
             clear_screen()
             print("\nPress ESCAPE key to return to main menu!\n\n")
             print("Initializing...\n\n")
             loading(300)
             snake_score = bonus.main()
-        if maininput == "5":
+        if main_input == "5":
             user_guide()
-        if maininput == "6":
+        if main_input == "6":
             print("Thanks for playing! :)")
             quit()
 
@@ -360,17 +375,18 @@ def main():
 
         else:
             clear_screen()
-            if score_count[0] > 0 or score_count[1] > 0:
-                print("THE FINAL SCORE OF THIS ROUND WAS:")
-                the_score_is(p1, p2, score_count[0], score_count[1])
+            if SCORE_COUNT[0] > 0 or SCORE_COUNT[1] > 0:
+                print("THE FINAL SCORE OF THE LAST ROUND WAS:")
+                the_score_is(p1, p2, SCORE_COUNT[0], SCORE_COUNT[1])
             if int(snake_score) == 1:
                 print("\nYou managed to score 1 point in snake!\n")
             if int(snake_score) > 1:
                 print("\nYou managed to score {} points in snake!\n".format(snake_score))
             continue
 
-# Some functions and features doesn't work in my testing with Python 2.x.x.
+# Some modules doesn't work in my testing with Python 2.x.x.
 # Therefore, lets make sure the user uses version 3 or above.
+
 
 if sys.version_info[0] < 3:
     raise Exception("Please run this game in python version 3 or above.")
