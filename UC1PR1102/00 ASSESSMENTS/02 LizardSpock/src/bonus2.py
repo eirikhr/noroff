@@ -47,8 +47,8 @@ def get_word(maxlength):
         for word in i:
             if len(word) > maxlength:  # Don't pick words over the maximum length
                 continue
-            selected_words.append(word)
-    return random.choice(selected_words)
+            selected_words.append(word)  # Add qualified words to list.
+    return random.choice(selected_words)  # Pick random word from list.
 
 
 def get_length():
@@ -80,7 +80,17 @@ def get_attempts():
 
 
 def hide_word(word, hidden_word):
-    """Hide unguessed characters in the word"""
+    """Hide unguessed characters in the word
+    Args:
+        word (str): The actual word user needs to guess.
+        hidden_word (list): A list of booleans. One entry per character in word.
+                            Booleans with True value are to be shown, and False will be hidden
+
+    Returns:
+        replaced (str): If word is "HELLO" and LL in hidden_word is True, it will return as
+                        "**LL*"
+
+          """
     replaced = "".join([letter if hidden_word[i] else "*" for i, letter in enumerate(word)])
     return replaced
 
@@ -89,16 +99,17 @@ def get_guess(remaining):
     """Get the next guess"""
     while True:
         letter = get_input("Guess the next letter:")
-        letter = letter.lower()
+        letter = letter.lower()  # Parse everything as lowercase.
         if len(letter) != 1:
             print("{} is not a single letter.\n"
                   "You can only guess one letter at the time".format(letter))
         elif letter not in alphabet:
             print("{} is not a letter.\n".format(letter))
         elif letter not in remaining:
-            print("{} has been guessed previously.\n".format(letter))
+            print("{} has already been guessed.\n".format(letter))
         else:
             LizardSpock.clear_screen()
+            # Remove the guessed letter from remaining letters that can be guessed
             remaining.remove(letter)
             return letter
 
@@ -116,8 +127,8 @@ def main():
 
     # Initializing variables
     hidden_word = [letter not in alphabet for letter in word]
-    guessed_letters = []
-    remaining = set(alphabet)
+    guessed_letters = []  # Correctly guessed letters
+    remaining = set(alphabet)  # Creates a set of all letters remaining.  {'a', 'b', } --- and so on
     solved = False
 
     while attempts > 0 and not solved:
@@ -136,12 +147,14 @@ def main():
 
             for i in range(len(word)):
                 if word[i] == guess:
+                    # Make the boolean in the list of correct letters True
+                    # That way, it will reveal itself.
                     hidden_word[i] = True
 
         else:
             print("Unfortunately, {} is not in the word!\n".format(guess.upper()))
             attempts -= 1
-            guessed_letters.append(guess)
+            guessed_letters.append(guess)  # Add incorrect letter to guessed letter list.
 
         # Check if word is solved
 

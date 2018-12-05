@@ -168,8 +168,7 @@ def main():
 
 
         if keypressed == 113 or keypressed == 27:
-            print("Thanks for playing :)")
-            quit()
+            break
 
         if keypressed in [KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT]:
             snake.new_direction(keypressed)

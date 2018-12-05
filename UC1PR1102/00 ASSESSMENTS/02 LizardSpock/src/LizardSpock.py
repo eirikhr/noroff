@@ -106,7 +106,7 @@ def get_hidden_input(printstring=""):
     printstring = str(printstring)
     if len(printstring) > 0:
         print(printstring)
-    value = getpass("-> ", stream=None)
+    value = getpass("-> ", stream=None)  # Makes the input hidden.
     if value.lower() == "q" or value.lower() == "quit":
         print("Thanks for playing :)")
         quit()
@@ -133,6 +133,7 @@ def user_guide():
     print("HOW:")
     print("* Use the number keys on your keyboard to select a menu choice.")
     print("* Press enter after selecting a choice.\n")
+    # Do nothing with an input in order to wait for user to read it before exiting function.
     get_input("Press enter to continue to main menu...")
 
 
@@ -226,16 +227,16 @@ def one_player(p1, p2):
         while True:
             clear_screen()
             loading(30)
-            player2 = str(randint(1, 5))
+            player2 = str(randint(1, 5))  # Player 2 selects tool randomly.
             print("Computer has selected a combat tool. Prepare to select your own tool!\n")
             print(p1.upper() + "!\nIts your turn to make a choice!\n")
             selection_text()
-            player1 = selection()
+            player1 = selection()  # Player 1 selects tool.
             clear_screen()
             print("\nBoth has made their selection. The results are:")
             loading()
-            winner = ((int(player1) - int(player2)) % 5)
-            if winner == 3 or winner == 4:
+            winner = ((int(player1) - int(player2)) % 5)  # Calculate who wins.
+            if winner == 3 or winner == 4:  # Player 1 wins.
                 print(its_simple(player1, player2))
                 print()
                 print(p1.upper(), "IS THE WINNER!\n")
@@ -245,7 +246,7 @@ def one_player(p1, p2):
                 print("\nThis round was a DRAW!")
                 print("Both of you chose {}\n".format(conversion(player1)))
                 break
-            else:
+            else:  # If not draw or player 1 win, then player 2 is the winner.
                 print(its_simple(player1, player2))
                 print()
                 print(p2.upper(), "IS THE WINNER!\n")
@@ -253,6 +254,7 @@ def one_player(p1, p2):
                 break
         print("POINT OVERVIEW:")
         the_score_is(p1, p2, SCORE_COUNT[0], SCORE_COUNT[1])
+        # Ask if users want new round.
         repeat = get_input("Want to play again?\n\nEnter no (n) to return to the main menu.\n"
                            "Press anything else to continue.")
         if repeat.lower() == "no" or repeat.lower() == "n":
@@ -274,12 +276,12 @@ def two_player(p1, p2):
             loading(30)
             print(p1.upper() + "!\nIts your turn to make a choice!\n")
             selection_text()
-            player1 = selection()
+            player1 = selection()  # Player 1 selects tool.
             clear_screen()
             loading(30)
             print(p2.upper() + "!\nIts your turn to make a choice!\n")
             selection_text()
-            player2 = selection()
+            player2 = selection()  # Player 2 selects tool.
             clear_screen()
             print("\nBoth has made their selection. The results are:")
             loading()
@@ -338,8 +340,8 @@ def main():
         print("3: Bonus Feature - Guess the word!")
         print("4: Bonus Feature - Snake using curses ~~~~@  x")
         print("5: User Guide.")
-        print("6: Exit the game.")
-        print("\nNote: Quit the game completely at any time by pressing the \"q\" button\n")
+        print("6: Exit the game.\n")
+
 
         # Gets user input.
         main_input = get_input("Please enter your selection.")
@@ -362,7 +364,7 @@ def main():
             clear_screen()
             print("\nPress ESCAPE key to return to main menu!\n\n")
             print("Initializing...\n\n")
-            loading(300)
+            loading(150)
             snake_score = bonus.main()
         if main_input == "5":
             user_guide()
@@ -394,5 +396,8 @@ if sys.version_info[0] < 3:
 # If we are running this as the main program (not being imported externally, then run main()
 # This way, it is possible to call the game from another script later on if needed.
 
+
 if __name__ == "__main__":
     main()
+
+# Sorry for so many lines for you to read :(
