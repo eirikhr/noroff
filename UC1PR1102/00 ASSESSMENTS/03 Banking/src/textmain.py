@@ -63,35 +63,7 @@ def new_account_record():
             except ValueError:
                 print("Invalid choice. Try again.")
 
-    def write_record():
-        """
-        The function that is responsible for the write-to-file
-        functionality.
-        """
-        try:
-            now = datetime.datetime.now()
-            file_name = now.strftime("%Y-%m-%d %H.%M.%S - ") + text_box1.get() + ".txt"
-            file_intro = "\n\n______________________________________________\n" \
-                         "               Bank Account Record" \
-                         "\n______________________________________________\n\n"
-            with open(file_name, "w") as file:  # The text formatting and writing to file implementation.
-                file.write(file_intro +
-                           "\n\nSECTION 1: "
-                           "\n\tCase Reference Number: " + text_box2.get() +
-                           "\n\tItem Reference Number: " + text_box3.get() +
-                           "\n\nINVESTIGATION: "
-                           "\n\tStart Date: " + text_box4.get() +
-                           "\n\tStart Time: " + text_box5.get() + "\n"
-                                                                  "\nCOMMENTS: " + "\n\t" + usage_entry.get("1.0",
-                                                                                                            tk.END) +
-                           "_________________________________________"
-                           "\nFinish Date: " + text_box6.get() +
-                           "\nFinish Time: " + text_box7.get() +
-                           "\nInvestigator Name: " + text_box8.get() + "\n"
-                                                                       "\nSignature: "
-                                                                       "\n\n_________________________________________\n\n")
-        finally:
-            box.showinfo("Report Created", "Your Forensics Report Has Been Made")  # Informing users of file created
+
 
     def want_debit():
         print("Do you want to apply for a debit card?:\n")
@@ -165,11 +137,35 @@ def new_account_record():
     # SECTION TWO
 
 
-
-
-
-
-
+def write_record():
+    """
+    The function that is responsible for the write-to-file
+    functionality.
+    """
+    try:
+        now = datetime.datetime.now()
+        file_name = now.strftime("%Y-%m-%d %H.%M.%S - ") + text_box1.get() + ".txt"
+        file_intro = "\n\n______________________________________________\n" \
+                     "               Bank Account Record" \
+                     "\n______________________________________________\n\n"
+        with open(file_name, "w") as file:  # The text formatting and writing to file implementation.
+            file.write(file_intro +
+                       "\n\nSECTION 1: "
+                       "\n\tCase Reference Number: " + text_box2.get() +
+                       "\n\tItem Reference Number: " + text_box3.get() +
+                       "\n\nINVESTIGATION: "
+                       "\n\tStart Date: " + text_box4.get() +
+                       "\n\tStart Time: " + text_box5.get() + "\n"
+                                                              "\nCOMMENTS: " + "\n\t" + usage_entry.get("1.0",
+                                                                                                        tk.END) +
+                       "_________________________________________"
+                       "\nFinish Date: " + text_box6.get() +
+                       "\nFinish Time: " + text_box7.get() +
+                       "\nInvestigator Name: " + text_box8.get() + "\n"
+                                                                   "\nSignature: "
+                                                                   "\n\n_________________________________________\n\n")
+    finally:
+        box.showinfo("Report Created", "Your Forensics Report Has Been Made")  # Informing users of file created
 
 
 
