@@ -1,55 +1,23 @@
 from datetime import datetime
 
 
-def get_input(printstring=""):
-    """Outputs the argument to screen, and returns the user input.
+def rot_encrypt(raw_string="Hello, World", n=1):
+    enc_string = ""
+    raw_string = str(raw_string)
+    for letter in raw_string:
+        enc_letter = chr(ord(letter) + n)
+        enc_string = enc_string + enc_letter
 
-    Args
-        printstring (str): Outputs printstring to screen before returning input from user
-
-    Returns:
-        The user input.
-    """
-    printstring = str(printstring)
-    if len(printstring) > 0:
-        print(printstring)
-    value = input("-> ")
-    if value.lower() == "quit":
-        print("Goodbye.")
-        quit()
-    return value
+    return enc_string
 
 
-def is_working():
-    print("Are you:\n")
-    print("1: Employed")
-    print("2: Self employed")
-    print("3: Part time")
-    print("4: Unemployed")
-    print("5: Not working")
-    print("6: Seeking work")
-    print("7: Retired")
-    print("8: Studying")
-    print("9: Other")
-    while True:
-        try:
-            value = int(get_input("\nPlease enter your selection by entering 1-9 and pressing enter."))
-            if value == 9:
-                value = get_input("Please explain:")
-                return value
-            elif value == 4:
-                try:
-                    entry = int(get_input("How many months in total have you been unemployed?"))
-                    output = "Unemployed: {} months".format(entry)
-                    return output
-                except ValueError:
-                    print("Please enter amount of months in numbers.")
-            elif value < 8:
-                return str(value)
-            else:
-                print("Invalid choice. Try again.")
-        except ValueError:
-            print("Invalid choice. Try again.")
+def rot_decrypt(enc_string, n=1):
+    raw_string = ""
+    for letter in enc_string:
+        raw_letter = chr(ord(letter) - n)
+        raw_string = raw_string + raw_letter
+
+    return raw_string
 
 
 def want_debit():
@@ -81,6 +49,7 @@ def write_record(file_name):
                      "\n______________________________________________\n\n"
         with open(file_name, "w") as file:  # The text formatting and writing to file implementation.
             file.write(file_intro +
+                       "\n\nFIRST PERSON: "
                        "\n\nSECTION 1: "
                        "\n\tTitle: " + placeholder +
                        "\n\tLast Name: " + placeholder +
@@ -102,116 +71,129 @@ def write_record(file_name):
 class User:
     num_of_entries = 0
 
-    def __init__(self, title, last, first, dob, gender, working, cob, tob, nationality, add_nationality, cor
-                 , tax_residency, foreing_tin, mobile, tel_home, tel_work, address, postcode, country, moved_in_date,
-                 previous_addr, previous_postal, previous_country, corr_addr, corr_postal, corr_country,
-                 debit_name, debit_mpn):
 
-        self.title = title
-        self.last = last
-        self.first = first
-        self.dob = dob
-        self.gender = gender
-        self.working = working
-        self.cob = cob
-        self.tob = tob
-        self.nationality = nationality
-        self.add_nationality = add_nationality
-        self.cor = cor
-        self.tax_residency = tax_residency
-        self.foreing_tin = foreing_tin
-        self.mobile = mobile
-        self.tel_home = tel_home
-        self.tel_work = tel_work
-        self.address = address
-        self.postcode = postcode
-        self.country = country
-        self.moved_in_date = moved_in_date
-        self.previous_addr = previous_addr
-        self.previous_postal = previous_postal
-        self.previous_country = previous_country
-        self.corr_addr = corr_addr
-        self.corr_postal = corr_postal
-        self.corr_country = corr_country
-        self.debit_name = debit_name
-        self.debit_mpn = debit_mpn
+    def __init__(self):
+        self.section_one = {}
+        self.section_two = {}
 
 
-        self.filename =  datetime.now().strftime("%Y-%m-%d %H.%M.%S ") + self.last + ".txt"
-        #num_of_entries += 1
+    def get_input(self, printstring, required=False):
+        """Outputs the argument to screen, and returns the user input.
+
+        Args
+            printstring (str): Outputs printstring to screen before returning input from user
+
+        Returns:
+            The user input.
+        """
+        valid = False
+        if required:
+            while not valid:
+                value = input(printstring + " ->  ")
+                if value:
+                    if value.lower() == "quit":
+                        print("Goodbye.")
+                        quit()
+                    return value
+        else:
+            value = input("-> " + printstring)
+            if value:
+                if value.lower() == "quit":
+                    print("Goodbye.")
+                    quit()
+                return value
+
+    def is_working(self):
+        print("Are you:\n")
+        print("1: Employed")
+        print("2: Self employed")
+        print("3: Part time")
+        print("4: Unemployed")
+        print("5: Not working")
+        print("6: Seeking work")
+        print("7: Retired")
+        print("8: Studying")
+        print("9: Other")
+        while True:
+            try:
+                value = int(self.get_input("\nPlease enter your selection by entering 1-9 and pressing enter."))
+                if value == 9:
+                    value = self.get_input("Please explain:")
+                    return value
+                elif value == 4:
+                    while True:
+                        try:
+                            entry = int(self.get_input("How many months in total have you been unemployed?"))
+                            return "Unemployed: {} months".format(entry)
+                        except Exception:
+                            print("Please enter amount of months in numbers.")
+                elif value < 8:
+                    return value
+                else:
+                    print("Invalid choice. Try again.")
+            except Exception:
+                print("Invalid choice. Try again.")
+
+    def get_information(self):
+        print("Section 1, Personal Detail")
+        self.section_one["title"] = self.get_input("What is your title? (E.g: Mr, Mrs, Miss, Ms", True)
+        self.section_one["last"] = self.get_input("What is your LAST name. (E.g: Doe, Johnson, Hanson")
+        self.section_one["first"] = self.get_input("What is all of your FIRST name(s). (E.g: John, Patrick, Eric Roger")
+        self.section_one["dob"] = self.get_input("What is your date of birth? (E.g: YYYY-MM-DD / 2019-01-01")
+        self.section_one["gender"] = self.get_input("What gender do you identify as? (E.g: Male/Female/None")
+        self.section_one["working"] = self.is_working()
+        self.section_one["cob"] = self.get_input("Country of Birth:")
+        self.section_one["tob"] = self.get_input("Your Town/City of Birth:")
+        self.section_one["nat"] = self.get_input("Nationality:")
+        self.section_one["nat_ext"] = self.get_input("If applicable, enter all additional nationalities seperated by commas:")
+        self.section_one["cor"] = self.get_input("Country of residence:")
+        self.section_one["residency"]  = self.get_input("----\n"
+                                                        + "Please note: *This is the country where an individual is "
+                                                        + "resident under the tax laws of such jurisdiction.\n"
+                                                        + "----\n"
+                                                        + "If applicable, which countries are you tax resident* in?")
+        self.section_one["tin"] = self.get_input("----\n"
+                                                 + "Guidance: By TIN we mean, Taxpayer Identification number, "
+                                                 + "or similar Tax Payer reference number you hold for your contry(ies)"
+                                                 + " you are tax resident in.\n"
+                                                 + "----\n"
+                                                 + "If you have a Taxpayer Identification (TIN) for other countries, "
+                                                 + "please provide details below")
+        self.section_one["tel_mob"] = self.get_input("Your mobile phone number, including area dialing codes")
+        self.section_one["tel_home"] = self.get_input("If applicable, your home phone number, including area dialing codes")
+        self.section_one["tel_work"] = self.get_input("If applicable, your work phone number, including area dialing codes")
+        self.section_one["addr"] = self.get_input("Home address (where you live)")
+        self.section_one["postal"] = self.get_input("Post code")
+        self.section_one["country"] = self.get_input("Country")
+        self.section_one["living"] = self.get_input("When did you start living at this address?")
+        self.section_one["prev_addr"] = self.get_input("IMPORTANT: If less than three years at current address\n"
+                                                       + "Your previous address:")
+        self.section_one["prev_postal"] = self.get_input("If applicable, previous post code:")
+        self.section_one["prev_country"] = self.get_input("If applicable, previous country:")
+        self.section_one["cor_addr"] = self.get_input("IMPORTANT: Only applicable if different from your home address\n"
+                                                      + "Enter your correspondence address:")
+        self.section_one["cor_postal"] = self.get_input("If applicable, enter correspondence post code")
+        self.section_one["cor_country"] = self.get_input("If applicable, enter correspondence country")
 
 
-def get_information():
-    THE_LIST = []
-    THE_LIST.append(get_input("What is your title? (E.g: Mr, Mrs, Miss, Ms"))
-    THE_LIST.append(get_input("What is your LAST name. (E.g: Doe, Johnson, Hanson"))
-    THE_LIST.append(get_input("What is all of your FIRST name(s). (E.g: John, Patrick, Eric Roger"))
-    THE_LIST.append(get_input("What is your date of birth? (E.g: YYYY-MM-DD / 2019-01-01"))
-    THE_LIST.append(get_input("What gender do you identify as? (E.g: Male/Female/None"))
-    THE_LIST.append(get_input(is_working()))
-    THE_LIST.append(get_input("Country of Birth:"))
-    THE_LIST.append(get_input("Your Town/City of Birth:"))
-    THE_LIST.append(get_input("Nationality:"))
-    THE_LIST.append(get_input("If applicable, enter all additional nationalities seperated by commas:"))
-    THE_LIST.append(get_input("Country of residence:"))
-    THE_LIST.append(get_input("----\n"
-                              "Please note: *This is the country where an individual is "
-                              "resident under the tax laws of such jurisdiction.\n"
-                              "----\n"
-                              "If applicable, which countries are you tax resident* in?"))
-    THE_LIST.append(get_input("----\n"
-                              "Guidance: By TIN we mean, Taxpayer Identification number, "
-                              "or similar Tax Payer reference number you hold for your contry(ies)"
-                              " you are tax resident in.\n"
-                              "----\n"
-                              "If you have a Taxpayer Identification (TIN) for other countries, "
-                              "please provide details below"))
-    THE_LIST.append(get_input("Your mobile phone number, including area dialing codes"))
-    THE_LIST.append(get_input("If applicable, your home phone number, including area dialing codes"))
-    THE_LIST.append(get_input("If applicable, your work phone number, including area dialing codes"))
-    THE_LIST.append(get_input("Home address (where you live)"))
-    THE_LIST.append(get_input("Post code"))
-    THE_LIST.append(get_input("Country"))
-    THE_LIST.append(get_input("When did you start living at this address?"))
-    THE_LIST.append(get_input("IMPORTANT: If less than three years at current address\n"
-                              "Your previous address:"))
-    THE_LIST.append(get_input("If applicable, previous post code:"))
-    THE_LIST.append(get_input("If applicable, previous country:"))
-    THE_LIST.append(get_input("IMPORTANT: Only applicable if different from your home address\n"
-                              "Enter your correspondence address:"))
-    THE_LIST.append(get_input("If applicable, enter correspondence post code"))
-    THE_LIST.append(get_input("If applicable, enter correspondence country"))
-    apply_debit = want_debit()
+customers = []
+number_of_customers = int(input("How many customers will be on this account? (1 or 2)"))
 
-    THE_LIST.append(apply_debit[0])
-    THE_LIST.append(apply_debit[1])
+for i in range(number_of_customers):
+    user = User()
+    user.get_information()
+    customers.append(user)
 
-    return THE_LIST
+filename =str(datetime.now().timestamp()) + customers[0].section_one["first"]
 
+file = open(filename, 'w')
 
-
-def add_record():
-    User(*add_record())
-
-
-#print(THE_LIST)
-"""
-THE_LIST = ['Mr', 'Rynning', 'Eirik Hansen', '1989-03-06', 'Male', '', 'Norge', '', '', '', '', '', '', '+4790050985',
-            '', '', '', '', '', '', '', '', '', '', '', '', 'Eirik Rynning', 'Bjørg Hansen']
-"""
-
-test = User(*add_record())
-print(test.debit_mpn)
-print(test.debit_name)
-print(test.filename)
-#file = User(test[2] + test[1])
-
-#print(file.filename)
-
-#print(test.first)
-#print(test.last)
-#print(test.filename)
-
+for key in customers[0].section_one.keys():
+    for j in range(len(customers)):
+        file.write("***"+key+"***")
+        file.write("\n")
+        file.write(rot_encrypt(customers[j].section_one[key]) if customers[j].section_one[key] else "")
+        file.write("\n")
 
 
 
