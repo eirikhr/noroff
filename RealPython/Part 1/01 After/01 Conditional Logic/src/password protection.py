@@ -13,3 +13,21 @@ else:                                                       # Siden vi nå har f
     quit()                                                  # Lukk programmet
 
 print("Successfully logged in.")                            # Har vi unngått siste else statement, er du da logget inn.
+
+
+# When starting, no tries have been made
+tries = 0
+
+while tries < 3:
+    password = input("Password: ")
+    if password == "I<3BIEBER":
+        break
+    else:
+        tries += 1
+        print("Nope.")
+else:
+    print("Suspicious activity. Sending email to boss.")
+    quit()
+
+print("Successfully logged in.")
+print("Run your code here!")
