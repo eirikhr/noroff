@@ -15,11 +15,12 @@ def rot_decrypt(string, shift=8):
 filename = str(input("Please input timestamp (without .txt)")) + ".txt"
 output_filename = filename + " - DECRYPTED.txt"
 
-output = open(output_filename, 'w')
+output = open(output_filename, "w")
 
-file = open(filename, 'r')
+file = open(filename, "r")
 
 for line in file:
+    # Ignore decryption for keywords, Section Lines and empty lines.
     if (line == "\n") or ("SECTION" in line) or line.startswith('['):
         output.write(line)
     else:

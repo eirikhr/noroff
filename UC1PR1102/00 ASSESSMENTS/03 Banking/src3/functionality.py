@@ -71,24 +71,26 @@ class User:
                 value = int(input("\nPlease enter your selection by entering 1-9 and pressing enter.\n"
                                   " ->  "))
                 if value == 9:
-                    value = input("Please explain:\n"
-                                  " ->  ")
+                    value = numbersaway(input("Please explain:\n"
+                                              " ->  "))
                     return "9 - " + value
                 elif value == 4:
                     while True:
                         try:
-                            entry = input("How many months in total have you been unemployed?\n"
-                                          " ->  ")
+                            entry = numbersaway(input("How many months in total have you been unemployed?\n"
+                                                      " ->  "))
                             return "Unemployed: {} months".format(entry)
                         # Catches if user doesnt
                         except TypeError:
                             print("Invalid choice. Try again.")
                 elif value < 10:
-                    return value
+                    value = value
+                    return str(value)
                 else:
                     print("Invalid choice. Try again.")
-            except (ValueError, NameError, TypeError) as e:
-                print("Invalid choice. Try again.")
+            finally:
+            #except (ValueError, NameError, TypeError) as e:
+                print("Finally Invalid choice. Try again.")
 
     def yes_no(self, printstring=None):
         """Gets yes or no choice from user.
@@ -185,7 +187,7 @@ class User:
         self.section_one["Date of Birth"] = self.get_input("What is your date of birth? "
                                                            "(E.g: YYYYMMDD / 19901127", True)
         self.section_one["Gender"] = self.get_input("What gender do you identify as? (E.g: Male/Female/Other", True)
-        self.section_one["Is Working Code"] = str(self.is_working())
+        self.section_one["Is Working Code"] = str(numbersaway(self.is_working()))
         self.section_one["Country of Birth"] = self.get_input("Country of Birth:", True)
         self.section_one["Town of Birth"] = self.get_input("Your Town/City of Birth:", True)
         self.section_one["Nationality"] = self.get_input("Nationality:", True)
@@ -491,7 +493,7 @@ def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-def new_record():
+def write_record():
     """Function that creates an instance of the class User().
     From there it calles the User().get_information() method, and stores the instances variables into
     a list.
@@ -504,6 +506,7 @@ def new_record():
           "2 - Create a joint account for two customers\n"
           "      - If two customers are selected, information about the second user of the account\n"
           "      - will be entered sequentially after the First Customer has entered his/hers information.\n\n")
+
     try:
         customers = []
         number_of_customers = int(input("Please enter your selection by entering 1 or 2 and then pressing enter.\n"
@@ -593,5 +596,8 @@ def new_record():
         # Make sure only 1 or 2 can be selected.
         else:
             print("That number is not 1 or 2.")
-    except (ValueError, TypeError) as e:
-        print("Something went wrong...")
+    except (ValueError, NameError, TypeError) as e:
+        print("Thats not a valid option.")
+
+user1 = User()
+print(numbersaway(user1.is_working()))
