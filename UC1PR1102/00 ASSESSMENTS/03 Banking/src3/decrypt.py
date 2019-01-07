@@ -12,7 +12,7 @@ def rot_decrypt(string, shift=8):
     return cipher
 
 
-filename = str(input("Please input timestamp (without extension)")) + ".txt"
+filename = str(input("Please input timestamp (without .txt)")) + ".txt"
 output_filename = filename + " - DECRYPTED.txt"
 
 output = open(output_filename, 'w')
@@ -25,3 +25,5 @@ for line in file:
     else:
         output.write(rot_decrypt(line.replace('\n', '')))
         output.write("\n")
+
+print("Decryption attempt completed.")
